@@ -1,0 +1,23 @@
+.iconContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  &:last-child {
+    max-width: 68px;
+  }
+  &:nth-child(5) {
+    max-width: 47px;
+  }
+  p {
+    max-width: 160px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    color: #ffffff;
+    padding: 21px 0 34px 0;
+  }
+}

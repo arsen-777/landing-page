@@ -1,0 +1,105 @@
+.cardContainer {
+  position: relative;
+  font-family: 'Source Sans Pro';
+  color: rgba(255, 255, 255, 0.86);
+  letter-spacing: 0.007em;
+  .cardItem {
+    width: 537px;
+    height: 586px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    h3 {
+      margin-top: 53px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 39px;
+      line-height: 52px;
+    }
+
+    button {
+      border: none;
+      padding: 15px 40px;
+      background: #8276ff;
+      border-radius: 31.0938px;
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+
+      color: #ffffff;
+    }
+    .amount {
+      display: flex;
+      font-family: 'Source Sans Pro';
+      align-items: center;
+      position: relative;
+      span {
+        font-weight: 600;
+        font-size: 31px;
+        padding-bottom: 35px;
+        // text-decoration: line-through #f354b4 4px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 157px;
+        letter-spacing: 0.007em;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .line {
+        width: 74.55px;
+        height: 0.43px;
+        border: 3.35685px solid #f354b4;
+        border-radius: 10px;
+        background-color: #f354b4;
+        transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+        position: absolute;
+        top: 60px;
+      }
+    }
+  }
+  .neonBlock {
+    position: absolute;
+    top: -80px;
+    right: -80px;
+  }
+  .percent {
+    position: absolute;
+    top: -18px;
+    right: -6px;
+
+    p {
+      font-family: 'Arial';
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 104px;
+      letter-spacing: 0.007em;
+      color: #ffffff;
+      text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+    .plus {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      p {
+        font-size: 39px;
+      }
+      span {
+        font-size: 50px;
+        color: #fff;
+        position: absolute;
+        font-weight: 900;
+        top: 65px;
+        right: 0;
+      }
+    }
+  }
+}

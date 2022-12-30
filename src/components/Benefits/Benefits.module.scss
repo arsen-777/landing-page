@@ -1,0 +1,23 @@
+.monthlyYearlyContainer {
+  font-family: 'Source Sans Pro';
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 210px;
+  .monthlyYearlyBlock {
+    margin-bottom: 113px;
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 39px;
+      line-height: 52px;
+      letter-spacing: 0.007em;
+      color: #ffffff;
+    }
+  }
+  .cardsBlock {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

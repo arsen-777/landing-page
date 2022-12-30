@@ -1,0 +1,29 @@
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .webWork {
+    display: flex;
+    align-items: center;
+    & h1 {
+      font-size: 18px;
+      color: #ffff;
+      font-family: Arial;
+      margin-left: 12px;
+    }
+  }
+  & button {
+    width: 175px;
+    height: 42px;
+    border: 1px solid #8276ff;
+    border-radius: 131px;
+    background: #1e1e1e;
+    color: white;
+    text-transform: capitalize;
+    // font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

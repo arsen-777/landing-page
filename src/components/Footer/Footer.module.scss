@@ -1,0 +1,211 @@
+.footer {
+  width: 1920px;
+  height: 431px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #30285f;
+
+  .leftSide {
+    p {
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 49px;
+      line-height: 62px;
+      letter-spacing: 0.007em;
+      color: #ffffff;
+    }
+    button {
+      padding: 15px 40px;
+      background: #8276ff;
+      border-radius: 31.0938px;
+      border: none;
+      color: #fff;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      font-family: 'Source Sans Pro';
+    }
+  }
+
+  .rightSide {
+    margin-top: 72px;
+    display: flex;
+    flex-flow: column;
+    .selfieBlock {
+      display: flex;
+      flex-flow: column;
+
+      .container {
+        margin-top: 71px;
+        display: flex;
+        .activity {
+          width: 239.65px;
+          height: 125.63px;
+          background: #ffffff;
+          box-shadow: 0px 5.2786px 21.1144px rgba(152, 156, 161, 0.1);
+          border-radius: 13.1456px;
+          transform: rotate(11.59deg);
+          padding: 5px 10px;
+          p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14.2185px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+
+            color: #495057;
+          }
+          .info {
+            display: flex;
+            justify-content: space-between;
+            p {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13.7244px;
+              line-height: 21px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              color: #2ecd6f;
+            }
+            span {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13.7244px;
+              line-height: 21px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              color: #495057;
+            }
+            div {
+              width: 96.56px;
+              height: 31.67px;
+              left: 1213.48px;
+              top: 172.11px;
+              background: #bcbbff;
+              border-radius: 2.11144px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 10px;
+              line-height: 15px;
+              display: flex;
+              align-items: center;
+
+              color: #fff;
+            }
+          }
+          .activeUsers {
+            margin: 15px 0;
+            display: flex;
+
+            p {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 9.41653px;
+              line-height: 14px;
+              display: flex;
+              align-items: center;
+              color: #c8ccde;
+            }
+          }
+          .nums {
+            display: flex;
+            justify-content: space-between;
+            p {
+            }
+            div {
+              width: 56.29px;
+              height: 2px;
+              border: 2.11144px solid #2ecd6f;
+              transform: matrix(0.98, 0.2, 0.2, -0.98, 0, 0);
+            }
+          }
+        }
+        .selfie {
+          width: 258.9px;
+          height: 205.31px;
+          background: linear-gradient(
+            60.15deg,
+            #b8bfff -20.54%,
+            #ddf9ff 135.18%
+          );
+          border-radius: 13.1456px;
+          transform: rotate(11.59deg);
+          position: relative;
+          margin-left: 25px;
+          img {
+            position: absolute;
+            left: 40px;
+            bottom: -35px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+
+    .teamBlock {
+      display: flex;
+      align-items: center;
+      .numbers {
+        width: 336.71px;
+        height: 249.27px;
+        left: 977.27px;
+        top: 226.96px;
+        background: #ffffff;
+        box-shadow: 6.37769px 4.20507px 24.0836px rgba(83, 83, 97, 0.1);
+        border-radius: 16.7423px;
+        transform: rotate(11.87deg);
+        div {
+          display: flex;
+          flex-flow: column;
+          justify-content: space-evenly;
+          height: 80%;
+          margin-left: 48px;
+          p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 8.06111px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.007em;
+            color: #90939c;
+          }
+        }
+        img {
+          position: absolute;
+          top: 25px;
+          right: -3px;
+        }
+      }
+      .team {
+        width: 265.28px;
+        height: 146.8px;
+        left: 1329.91px;
+        top: 304.9px;
+        background: #ffffff;
+        box-shadow: 6.00949px 6.86799px 35.1985px rgba(144, 144, 167, 0.24);
+        border-radius: 13.1456px;
+        transform: rotate(11.87deg);
+        margin-left: 25px;
+        margin-top: 105px;
+      }
+    }
+  }
+}

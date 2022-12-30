@@ -1,0 +1,131 @@
+.salesContainer {
+  font-family: 'Source Sans Pro';
+  margin-top: 160px;
+  color: #ffff;
+  display: flex;
+
+  .cyberSalesBlock {
+    .biggerSale {
+      width: 787px;
+      height: 138px;
+      p,
+      h3 {
+        letter-spacing: 0.007em;
+        color: #ffc759;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 69px;
+        text-transform: uppercase;
+        font-style: italic;
+        span {
+          font-size: 40px;
+          color: #ffff;
+          text-transform: lowercase;
+          font-style: normal;
+          padding-left: 10px;
+        }
+        &:last-child {
+          font-size: 40px;
+          color: #ffff;
+          text-transform: lowercase;
+          font-style: normal;
+          padding-left: 10px;
+          span {
+            letter-spacing: 0.007em;
+            color: #ffc759;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 69px;
+            text-transform: uppercase;
+            font-style: italic;
+            padding: 0;
+          }
+        }
+      }
+      .span {
+        font-size: 40px;
+        color: #ffff;
+        text-transform: lowercase;
+        font-style: normal;
+        padding-left: 10px;
+      }
+    }
+    .cyber {
+      width: 247px;
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.007em;
+
+        color: #ffffff;
+      }
+    }
+    .saveBig {
+      margin-top: 41px;
+      button {
+        padding: 15px 40px;
+        background: #8276ff;
+        border-radius: 31.0938px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      .checked {
+        margin-top: 20px;
+        display: flex;
+        p {
+          padding-left: 17px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.005em;
+          color: #ffffff;
+        }
+      }
+    }
+    .raiting {
+      display: flex;
+      margin-top: 64px;
+      p {
+        padding-left: 10px;
+        letter-spacing: 0.005em;
+      }
+    }
+    .brands {
+      width: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 31px;
+    }
+  }
+
+  .percent {
+    width: 479.34px;
+    height: 286.77px;
+    position: relative;
+    padding-right: 100px;
+    & img {
+      width: 200%;
+      height: 150%;
+    }
+    .fiveten {
+      position: absolute;
+      width: 90%;
+      height: 90%;
+      right: -4px;
+      top: 63px;
+    }
+  }
+}
