@@ -1,6 +1,6 @@
 .footer {
   width: 1920px;
-  height: 431px;
+  height: 378px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -206,6 +206,24 @@
         margin-left: 25px;
         margin-top: 105px;
       }
+    }
+  }
+  .elipse {
+    position: relative;
+    .elipse2 {
+      position: absolute;
+      top: -189px;
+      right: 55px;
+    }
+    .elipse1 {
+      position: absolute;
+      top: -185px;
+      right: 230px;
+    }
+    .elipse3 {
+      position: absolute;
+      top: -88px;
+      right: 396px;
     }
   }
 }

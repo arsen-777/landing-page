@@ -8,11 +8,12 @@ import { ReactComponent as Capterra } from '../../assets/images/capterra.svg';
 import { ReactComponent as Crowd } from '../../assets/images/crowd.svg';
 import { ReactComponent as GetApp } from '../../assets/images/getapp.svg';
 import { ReactComponent as Checked } from '../../assets/images/checked.svg';
+import 'aos/dist/aos.css';
 
 const BiggerSale = () => {
   return (
     <div className={styles.salesContainer}>
-      <div className={styles.cyberSalesBlock}>
+      <div className={styles.cyberSalesBlock} data-aos="fade-right">
         <div className={styles.biggerSale}>
           <p>
             cyber monday<span>means</span>
@@ -41,7 +42,7 @@ const BiggerSale = () => {
           <GetApp />
         </div>
       </div>
-      <div className={styles.percent}>
+      <div className={styles.percent} data-aos="zoom-in">
         <img src={percent} alt="" />
         <img src={fiveten} alt="" className={styles.fiveten} />
       </div>

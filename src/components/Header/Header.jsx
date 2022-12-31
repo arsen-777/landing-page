@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import { ReactComponent as WebWork } from '../../assets/images/x.svg';
-
 const Header = () => {
   return (
     <header className={styles.headerBlock}>

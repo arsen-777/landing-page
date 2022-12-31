@@ -1,20 +1,21 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-// import footer from '../../assets/images/footer2.png';
 import rec1 from '../../assets/images/rec1.png';
 import rec2 from '../../assets/images/rec2.png';
 import rec3 from '../../assets/images/rec3.png';
 import rec4 from '../../assets/images/Selfie.png';
 import ellipse1 from '../../assets/images/ellipse1.png';
 import ellipse2 from '../../assets/images/ellipse2.png';
+import ellipse3 from '../../assets/images/ellipse3.png';
 import { ReactComponent as Line } from '../../assets/images/line.svg';
 import tennis from '../../assets/images/tennis2.png';
+import 'aos/dist/aos.css';
 
 import women from '../../assets/images/women.png';
 import { ReactComponent as Rec } from '../../assets/images/rr.svg';
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} data-aos="fade-up">
       <div className={styles.leftSide}>
         <p>Save 50% Now</p>
         <button>GET MY DISCOUNT</button>
@@ -61,6 +62,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.elipse}>
+        <img className={styles.elipse2} src={ellipse2} alt="" />
+        <img className={styles.elipse1} src={ellipse1} alt="" />
+        <img className={styles.elipse3} src={ellipse3} alt="" />
       </div>
     </footer>
   );

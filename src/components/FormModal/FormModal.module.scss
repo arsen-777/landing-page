@@ -1,0 +1,43 @@
+.formModal {
+  width: 152px;
+  height: 148px;
+  background: #ffffff;
+  box-shadow: -2.69675px 2.69675px 8.09025px rgba(55, 67, 78, 0.1);
+  border-radius: 2.02256px;
+  border: 1px solid #fff;
+  position: absolute;
+  // left: 64.58%;
+  right: 5.33%;
+  top: 49.8%;
+  bottom: 9.18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  .btnDlt {
+    width: 134px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    button {
+      width: 64px;
+      height: 20;
+      padding: 4px 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background: #16cf96;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 6.74187px;
+      line-height: 10px;
+      border-radius: 1.34837px;
+      color: #fff;
+      &:last-child {
+        background: #ee5b60;
+      }
+    }
+  }
+}
